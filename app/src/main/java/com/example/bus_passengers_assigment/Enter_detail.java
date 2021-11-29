@@ -43,7 +43,7 @@ public class Enter_detail extends AppCompatActivity {
         bttnRegister = findViewById(R.id.bttn_register);
 
 
-        addres=findViewById(R.id.edt_id_hospital);
+        addres=findViewById(R.id.edt_id_address);
         fName = findViewById(R.id.edt_full_name);
         mNumber = findViewById(R.id.edt_phone_number);
         nId = findViewById(R.id.edt_id_number);
