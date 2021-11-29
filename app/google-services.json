@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816517275747",
+    "project_id": "bus-record-5fc72",
+    "storage_bucket": "bus-record-5fc72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816517275747:android:f2ef4206e534521f979856",
+        "android_client_info": {
+          "package_name": "com.example.bus_passengers_assigment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816517275747-dqrniedm0qi2vv4aebbnmdbqnl902f5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2Oe7Oj-8A5ZCoUz9npNTPWTne6uRWBnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816517275747-dqrniedm0qi2vv4aebbnmdbqnl902f5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

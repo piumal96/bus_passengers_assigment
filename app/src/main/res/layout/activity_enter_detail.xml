@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <EditText
+        android:id="@+id/edt_id_number"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edttext_shape"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:ems="5"
+        android:hint="ජාතික හැඳුනුම්පත් අංකය"
+        android:imeOptions="actionPrevious"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_id_hospital"
+        app:layout_constraintEnd_toEndOf="@+id/edt_phone_number"
+        app:layout_constraintStart_toStartOf="@+id/edt_id_hospital"
+        app:layout_constraintTop_toBottomOf="@+id/edt_full_name" />
+
+    <EditText
+        android:id="@+id/edt_id_hospital"
+        android:layout_width="275dp"
+        android:layout_height="0dp"
+
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edttext_shape"
+        android:ems="5"
+        android:hint="ලිපිනය"
+        android:imeOptions="actionPrevious"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_phone_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_id_number" />
+
+    <EditText
+        android:id="@+id/edt_full_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginTop="181dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/edttext_shape"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:ems="5"
+        android:hint="සම්පූර්ණ නම"
+        android:imeActionLabel="Next"
+        android:imeOptions="actionNext"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_id_number"
+        app:layout_constraintEnd_toEndOf="@+id/edt_id_number"
+        app:layout_constraintStart_toStartOf="@+id/edt_id_number"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bttn_register"
+        android:layout_width="137dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="226dp"
+        android:background="@drawable/button_shape"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Add details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_phone_number" />
+
+    <EditText
+        android:id="@+id/edt_phone_number"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edttext_shape"
+        android:drawableStart="@drawable/ic_baseline_local_phone_24"
+        android:ems="5"
+        android:hint="දුරකථන අංකය"
+        android:imeOptions="actionNext"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/bttn_register"
+        app:layout_constraintEnd_toEndOf="@+id/edt_id_hospital"
+        app:layout_constraintStart_toStartOf="@+id/edt_id_hospital"
+        app:layout_constraintTop_toBottomOf="@+id/edt_id_hospital" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
