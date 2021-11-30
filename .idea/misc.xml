@@ -5,19 +5,25 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/drawable/bg1.xml" value="0.26979166666666665" />
+        <entry key="app/src/main/res/drawable/button_shape.xml" value="0.26979166666666665" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.26979166666666665" />
         <entry key="app/src/main/res/drawable/edttext_shape.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.26979166666666665" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.26979166666666665" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.26979166666666665" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.26979166666666665" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.26979166666666665" />
         <entry key="app/src/main/res/drawable/red_button_bg.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/drawable/white_btn.xml" value="0.26979166666666665" />
         <entry key="app/src/main/res/layout/activity_donor_recycler_main.xml" value="0.14361702127659576" />
-        <entry key="app/src/main/res/layout/activity_enter_detail.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_enter_detail.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_passenger_recycler.xml" value="0.13179347826086957" />
         <entry key="app/src/main/res/layout/activity_thnks_page.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_view_details.xml" value="0.36186594202898553" />
         <entry key="app/src/main/res/layout/item.xml" value="0.375" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10833333333333334" />
       </map>
     </option>
   </component>
